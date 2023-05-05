@@ -26,7 +26,7 @@ function checkAnswer() {
             backgroundImages.push(`url('images/background${score}.svg')`);
             document.body.style.backgroundImage = backgroundImages;
         } else {
-            alert('Well done! Your maths garden is in full bloom! Want to start again?');
+            alert('Well done! Your maths park is in full bloom! Want to start again?');
             score = 0;
             backgroundImages = [];
             document.body.style.backgroundImage = backgroundImages;
